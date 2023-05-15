@@ -1,0 +1,9 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "Unleash the value of your data!"
+  image: "images/projections.png"
+  button:
+    label: "Let's talk"
+    url: "#"

@@ -1,0 +1,36 @@
+enabled: true
+id: "portfolio"
+
+content:
+  title: "Services"
+
+  list:
+    - image: "images/data-processing.png"
+      pretitle: "Structuring your data"
+      title: "Data processing"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+      buttons: 
+        - label: "Read more"
+          url: "#"
+
+    - image: "images/data-reports.png"
+      pretitle: "Understanding your scenario"
+      title: "Data reports"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+      buttons: 
+        - label: "Read more"
+          url: "#"
+
+    - image: "images/data-trends.png"
+      pretitle: "Planning your future"
+      title: "Data trends"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed euismod quis sit gravida pharetra sit. Cursus vel enim pretium vulputate semper sem elit magna neque. Aliquet adipisc."
+
+      buttons: 
+        - label: "See live"
+          url: "#"
+
+        - label: "Read more"
+          url: "#"

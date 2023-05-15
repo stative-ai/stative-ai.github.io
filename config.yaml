@@ -1,0 +1,84 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "stative.ai"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "stative.ai"
+  description: Your partner in data-driven transformation
+  images: 
+    - "images/hero-image.png"
+
+  logo: "arrow-up.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "São Cristóvão, 12. Sapucaia do Sul - Rio Grande do Sul. 88373-784"
+
+  contact:
+    - "contact@stative.ai"
+    - "xx x xxxx xxxx"
+
+  copyright: "© 2023 stative.ai All Rights Reserved"
+
+  postProcess: false
+
+menus:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "About us"
+      url: "/about"
+      weight: 2
+
+    - name: "Services"
+      url: "/#services"
+      weight: 3
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+  buttons:
+    - name: "Book a call"
+      url: "/#"
+      weight: 5
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+
+    - name: "How we work"
+      url: "/#"
+      weight: 2
+
+    - name: "Our team"
+      url: "/#"
+      weight: 3
+
+    - name: "Blog"
+      url: "/blog"
+      weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
